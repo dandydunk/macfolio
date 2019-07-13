@@ -1,0 +1,72 @@
+* {
+	margin:0;
+	padding:0;
+}
+header {
+	background-color: white;
+	z-index: 1;
+	border-bottom:thin solid black;
+}
+
+#navBarOne  {
+
+}
+
+#navBarOne a {
+	display:block;
+	width:15%;
+	text-align: center;
+	font-size:1.1em;
+	margin-right:20px;
+	height:50px;
+	display:flex; align-items:center; justify-content: center;
+	1border:thin solid black;
+}
+
+#navBarOne a:hover {
+	border-bottom: thin solid black;
+	text-decoration: none;
+}
+
+
+main .col-4 {
+}
+
+#divMiddleCol {
+	display:flex;
+}
+
+
+#divMiddleCol h1{
+	font-size:.8em;
+	align-self:center;
+}
+
+#divMiddleCol a{
+	margin-left: auto;
+	align-self:center;
+}
+
+
+
+#divEndCol {
+	display:flex;
+}
+#inputSearch {
+	align-self:center;
+}
+
+
+.userIcon {
+	width:100%;
+	height:50px;
+	border:thin solid black;
+}
+
+.divPostUserInfo {
+	display:flex;
+}
+
+.divPostUserInfo .aPostMessageMenu {
+	margin-left: auto;
+}
