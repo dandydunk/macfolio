@@ -1,0 +1,76 @@
+#sideBar {
+	width:15%;
+	overflow: scroll;
+	position: fixed;
+	height:100%;
+	background-color: grey;
+}
+
+#sideBar ul {
+	border:thin solid red;
+	padding:0;
+
+}
+
+#sideBar li {
+	list-style-type:none;
+	border:thin solid green;
+	text-align: left;
+	margin:0;
+	padding:0;
+}
+
+#sideBar a {
+	width:100%;
+	display:block;
+}
+
+#sideBar a:hover {
+	background-color: blue;
+	text-decoration: none;
+}
+
+#sectionContent {
+
+}
+
+#sectionMain {
+	height:9000px;
+	margin-left:15%;
+}
+
+.sectionVideoDetails {
+	width:100%;
+}
+
+.sectionVideoDetails ul {
+	padding:0;
+}
+
+.sectionVideoDetails li {
+	list-style-type: none;
+}
+
+.sectionVideoDetails li:nth-child(1) {
+	border:thin solid black;
+	height:100px;
+	width:100%;
+}
+
+.sectionVideoDetails li:nth-child(2) {
+	font-size:1em;
+	font-weight: bold;
+	font-size:1em;
+}
+
+.sectionVideoDetails li:nth-child(3) {
+	font-size:.8em;
+}
+
+.sectionVideoDetails li:nth-child(4) {
+	font-size:.8em;
+}
+
+.sectionVideoDetails li:nth-child(5) {
+	font-size:.8em;
+}
